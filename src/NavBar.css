@@ -1,0 +1,32 @@
+/* NavBar.css */
+.navbar {
+  position: fixed;
+  top: 0; /* Position at the top of the page */
+  left: 40px; /* 40px from the left */
+  width: auto; /* Let it adjust width according to the menu items */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.navbar-menu {
+  display: flex; /* Display items horizontally */
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin-right: 30px; /* Space between items */
+}
+
+.navbar-link {
+  text-decoration: none; /* Remove default underline */
+  font-size: 18px; /* Size of text */
+  color: #333; /* Dark text color */
+  padding: 10px 15px; /* Add padding for clickable area */
+  transition: color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.navbar-link:hover {
+  color: #007bff; /* Highlight color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
