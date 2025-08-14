@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App that implements a simple top-menu that navigates to 4 different pages/components/views.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
